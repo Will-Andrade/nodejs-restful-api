@@ -1,0 +1,2 @@
+# Node.js tshirt printing store RESTful API
+A VERY simple introduction to building RESTful APIs with Node.js and JavaScript. Follow along from Fireship's "RESTful API's in 100 seconds" video -> https://youtu.be/-MTSQjw5DrM
