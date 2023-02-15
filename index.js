@@ -1,5 +1,9 @@
-const app = require('express')();
+const express = require('express');
+const app = express();
 const PORT = 8080;
+
+// With this middleware, every new request will go through here
+app.use(express.json());
 
 // Starts the api listening to the port and giving a log when it is ready 
 app.listen(PORT, () => console.log(`It's live on: http://localhost:${PORT}`));
